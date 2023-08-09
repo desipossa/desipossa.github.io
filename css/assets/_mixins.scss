@@ -1,0 +1,11 @@
+@mixin res() {
+    @media (width <=390px) {
+        @content;
+    }
+}
+
+@mixin bgm($bg: null) {
+    color: transparent;
+    background: url($bg);
+    -webkit-background-clip: text;
+}

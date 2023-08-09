@@ -1,0 +1,186 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable-dynamic-subset.css");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap");
+:root {
+  --mc: #339;
+}
+
+html {
+  font-size: 6.25%;
+}
+@media (width <= 390px) {
+  html {
+    font-size: 0.24375vw;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: inherit;
+  font-size: inherit;
+  font-style: normal;
+  word-break: keep-all;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+  white-space: nowrap;
+}
+
+p {
+  line-height: 1.25;
+}
+
+body {
+  font-size: 16rem;
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  color: #444;
+  line-height: 1;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+input,
+button {
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  white-space: nowrap;
+}
+
+#skip {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  z-index: 999;
+}
+
+#skip a {
+  display: block;
+  text-align: center;
+  height: 0;
+  line-height: 40px;
+  background: #000;
+  color: #fff;
+  overflow: hidden;
+}
+
+#skip a:focus,
+#skip a:active {
+  height: 40px;
+}
+
+.blind {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+
+.inner {
+  max-width: 1348rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 24rem;
+}
+
+.Header {
+  position: fixed;
+  inset: 40rem auto auto 40rem;
+}
+.Header span {
+  font-size: 40rem;
+  font-variation-settings: "wght" 100;
+}
+
+.MainIntro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+  min-height: 700rem;
+}
+.MainIntro .content {
+  display: flex;
+  gap: 100rem;
+}
+.MainIntro .content .txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.MainIntro .content .txt h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 32rem;
+  margin: 0 0 16rem 0;
+}
+.MainIntro .content .txt p {
+  order: -1;
+  font-size: 48rem;
+  font-weight: 50;
+  margin: 0 0 40rem 0;
+}
+.MainIntro .content .txt p b {
+  font-weight: 700;
+}
+.MainIntro .content .txt p span {
+  display: block;
+  font-weight: 200;
+  font-size: 30rem;
+}
+.MainIntro .content > * {
+  flex: 1;
+}
+
+.MainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  min-height: 600rem;
+}
+.MainContent .content {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+.MainContent .content .itm {
+  flex: 0 0 100%;
+}
+.MainContent .content .itm .case {
+  display: flex;
+  gap: 100rem;
+}
+.MainContent .content .itm figure {
+  text-align: right;
+}
+.MainContent .content .itm .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.MainContent .content .itm .desc h3 {
+  font-size: 32rem;
+  font-weight: 100;
+  margin: 0 0 16rem 0;
+}
+.MainContent .content .itm .desc h3 span {
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */

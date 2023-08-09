@@ -1,0 +1,92 @@
+.MainIntro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    min-height: 700rem;
+
+    .content {
+        display: flex;
+        gap: 100rem;
+
+        .txt {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h2 {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 200;
+                font-size: 32rem;
+                margin: 0 0 16rem 0;
+            }
+
+            p {
+                order: -1;
+                font-size: 48rem;
+                font-weight: 50;
+                margin: 0 0 40rem 0;
+
+                b {
+                    font-weight: 700;
+                }
+
+                span {
+                    display: block;
+                    font-weight: 200;
+                    font-size: 30rem;
+                }
+            }
+        }
+
+        &>* {
+            flex: 1
+        }
+    }
+}
+
+
+
+
+.MainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    min-height: 600rem;
+
+    .content {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: hidden;
+
+        .itm {
+            flex: 0 0 100%;
+
+            .case {
+                display: flex;
+                gap: 100rem;
+            }
+
+            figure {
+                text-align: right;
+            }
+
+            .desc {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                h3 {
+                    font-size: 32rem;
+                    font-weight: 100;
+                    margin: 0 0 16rem 0;
+
+                    span {
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}
