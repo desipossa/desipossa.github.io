@@ -2,6 +2,7 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable-dynamic-subset.css");
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500&display=swap");
 :root {
   --mc: #339;
 }
@@ -183,4 +184,23 @@ button {
 }
 .MainContent .content .itm .desc h3 span {
   font-weight: 700;
+}
+
+.MainDal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 120vh;
+}
+.MainDal .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.MainDal .content .txt {
+  writing-mode: vertical-rl;
+  font-family: "Noto Serif KR", serif;
+  font-size: 24rem;
+  letter-spacing: 0.05em;
 }/*# sourceMappingURL=style.css.map */

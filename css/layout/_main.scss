@@ -90,3 +90,26 @@
         }
     }
 }
+
+.MainDal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 120vh;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        .txt {
+            writing-mode: vertical-rl;
+            font-family: 'Noto Serif KR', serif;
+
+            font-size: 24rem;
+            letter-spacing: 0.05em;
+        }
+
+    }
+}
