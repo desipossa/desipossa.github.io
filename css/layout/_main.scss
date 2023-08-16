@@ -5,6 +5,8 @@
     height: 80vh;
     min-height: 700rem;
 
+    -webkit-font-smoothing: antialiased;
+
     .content {
         display: flex;
         gap: 100rem;

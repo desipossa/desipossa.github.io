@@ -116,6 +116,7 @@ button {
   justify-content: center;
   height: 80vh;
   min-height: 700rem;
+  -webkit-font-smoothing: antialiased;
 }
 .MainIntro .content {
   display: flex;

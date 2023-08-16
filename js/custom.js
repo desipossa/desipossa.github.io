@@ -8,7 +8,8 @@ const H = gsap.to(panels, {
         trigger: ".MainContent",
         pin: true,
         start: "top top",
-        scrub: 2, // 숫자에따라 변함이 있음
+
+        scrub: 0, // 숫자에따라 변함이 있음
         markers: true,
         snap: {
             snapTo: 1 / (panels.length - 1),
@@ -29,13 +30,14 @@ const H = gsap.to(panels, {
 
 const D = gsap.to('.MainDal .dal', {
     x: 400,
-    y: 600,
+    y: 1000,
     rotation: 720,
     ease: "none",
     scrollTrigger: {
         trigger: ".MainDal",
         pin: true,
         start: "top top",
+        end: "+=1600",
         scrub: 0, // 숫자에따라 변함이 있음
         //markers: true
         // snap: {
